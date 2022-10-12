@@ -2,6 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router';
 import Course from './Course';
 
+
 const Home = () => {
   const loadData = useLoaderData([]);
   const coursesData = loadData.data;
